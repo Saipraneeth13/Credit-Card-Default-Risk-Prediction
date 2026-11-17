@@ -18,7 +18,10 @@ Analyze 30,000 credit card client records to uncover behavioral and financial dr
 
 ### 1. Primary Drivers of Credit Default
 
-![Primary Drivers of Credit Default](reports/figures/02_six_month_trends.png)
+![Primary Drivers of Credit Default]
+
+
+
 
 * **Portfolio & Credit Limits:** Out of 30,000 clients, 22.12% defaulted. Default risk drops sharply as credit limits rise—from **31.8%** in the Low tier ($\le\text{NT\$ }50\text{K}$) down to **13.3%** in the Premium tier ($>\text{NT\$ }300\text{K}$).
 * **Delinquency Escalation:** A single missed payment in September (`PAY_1 = 1`) more than doubles default risk to **33.9%**, while 2–3 months of consecutive delay (`PAY_1 = 2` or `3`) pushes default rates above **69%**. Repeated delinquency across the 6-month window compounds risk steadily from **11.7%** (0 delayed months) to **70.3%** (all 6 months delayed).
